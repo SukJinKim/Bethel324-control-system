@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Panel</title>
+    <link rel="stylesheet" type="text/css" href= "{{ url_for('static', filename='index.css') }}" >
+</head>
+
+<body>
+    <h1 id="title">Control Panel</h1>
+    <div class="buttons">
+       {% if door == "False" %} 
+	<button class="unlock" id="Door">
+            <h3>Door</h3>
+            <p>Unlock</p>
+        </button>
+	{% else %}
+	<button class="lock" id="Door">
+            <h3>Door</h3>
+            <p>Lock</p>
+        </button>
+	{% endif %}
+    	{% if humidifier == "False" %}
+        <button class="off" id="Humidifier">
+            <h3>Humidifier</h3>
+            <p>Off</p>
+            <p>Humidity : <span id="Humidity">{{ humidity }}</span>%</p>
+        </button>
+        {% else %}
+        <button class="on" id="Humidifier">
+            <h3>Humidifier</h3>
+            <p>On</p>
+            <p>Humidity : <span id="Humidity">{{ humidity }}</span>%</p>
+        </button>
+        {% endif %}
+
+        {% if led == "False" %}
+        <button class="off" id="LED">
+            <h3>LED</h3>
+            <p>Off</p>
+        </button>
+        {% else %}
+        <button class="on" id="LED">
+            <h3>LED</h3>
+            <p>On</p>
+        </button>
+        {% endif %}
+    </div>
+    <script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
+</body>
+
+</html>
