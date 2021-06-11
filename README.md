@@ -31,8 +31,8 @@
    1. [Raspberry Pi4 Model B](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2711/rpi_DATA_2711_1p0_preliminary.pdf)
     <br/>
 ## Team composition👨🏻‍💻🧑🏻‍💻
-- 채영민 [@dudals5018](https://github.com/dudals5018)
-- 채영민 [@SukJinKim](https://github.com/SukJinKim)
+- 채영민 : BE, HW 환경 설정 및 구성 등 [@dudals5018](https://github.com/dudals5018)
+- 김석진 : FE, MODBUS-RTU-Client, MODBUS-TCP-Client 등[@SukJinKim](https://github.com/SukJinKim)
     <br/>
 ## Youtube
 [한동대학교 21-1학기 임베디드 파이널 프로젝트 : Bethel324 control system 시현 영상](https://www.youtube.com/watch?v=UDMhM5lJeyQ)
