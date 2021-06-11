@@ -1,0 +1,38 @@
+#title {
+    text-align : center;
+}
+
+.buttons {
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-around;
+    align-items: center;
+}
+
+/* Button */
+button {
+    padding: 16px 32px;
+    border: none;
+    border-radius : 10%;
+    font-size: 16px;
+}
+
+button.on {
+    background-color : #51cf66;
+}
+
+button.off {
+    background-color: #ff6b6b;
+}
+
+button.lock {
+    background-color : #ff6b6b;
+}
+
+button.unlock {
+    background-color: #51cf66;
+}
+
+button.waiting {
+    background-color : #ffd43b;
+}
