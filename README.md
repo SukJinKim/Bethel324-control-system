@@ -13,7 +13,7 @@
 2. 💦 가습기 상태 (on/off) 확인 및 제어
 3. 🚪 문 잠김 상태 (lock/ unlock) 확인 및 제어
 4. 💧 습도 (0~100%)확인
-    <br/>
+   <br/>
 ## SW configuration 💻
 1. Modbus-RTU-Client
    - mbed-os-6.11.0
@@ -46,6 +46,6 @@
 ## Team composition 👨🏻‍💻🧑🏻‍💻
 - 채영민 : BE, HW 환경 설정 및 구성 등 [@dudals5018](https://github.com/dudals5018)
 - 김석진 : FE, MODBUS-RTU-Client, MODBUS-TCP-Client 등[@SukJinKim](https://github.com/SukJinKim)
-    <br/>
+  <br/>
 ## Links 🔗
 Youtube : [한동대학교 21-1학기 임베디드 파이널 프로젝트 : Bethel324 control system 시현 영상](https://www.youtube.com/watch?v=UDMhM5lJeyQ)
