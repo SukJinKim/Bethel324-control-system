@@ -5,7 +5,7 @@
 저희는 벧엘관 324호에 살고 있습니다. 기숙사 생활에는 고정적으로 반복되는 몇 가지 일들이 있고, 이러한 일들이 저희를 피곤하게 만듭니다. 방을 비울 때는 방문을 잠그고, 밤 11시가 되면 소등하고, 자기 전에 편안한 잠을 위해 가습기를 틉니다. 이러한 일들을 자동으로 혹은 스마트폰 터치 하나로 할 수 있다면 얼마나 편할지 기대하는 마음으로 **🏠 Bethel324-control-system**을 구현하기로 했습니다.
     <br/>
 ## System overview 🔮
-![system-overview](system-overview.jepg)
+![system-overview](system-overview.jpeg)
     <br/>
 ## Features ✨
 로컬 네트워크 상에서 웹 브라우저를 통해 아래와 같은 기능들을 수행할 수 있습니다.
