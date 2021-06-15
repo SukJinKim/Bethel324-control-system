@@ -14,7 +14,7 @@
 3. 🚪 문 잠김 상태 (lock/ unlock) 확인 및 제어
 4. 💧 습도 (0~100%)확인
     <br/>
-## Software 💻
+## SW configuration 💻
 1. Modbus-RTU-Client
    - mbed-os-6.11.0
     <br/>
@@ -26,7 +26,7 @@
    - Flask 1.0.2
    - Python 3.7.3
     <br/>
-## Hardware ⚙️
+## HW configuration ⚙️
 1. MODBUS-RTU-Client 🤖
     1. [MODBUS RTU RELAY](https://www.waveshare.com/modbus-rtu-relay.htm)
     2. [MAX485 Module](http://www.openimpulse.com/blog/wp-content/uploads/wpsc/downloadables/MAX485-Datasheet.pdf)
