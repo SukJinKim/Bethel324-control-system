@@ -49,3 +49,4 @@
   <br/>
 ## Links 🔗
 Youtube : [한동대학교 21-1학기 임베디드 파이널 프로젝트 : Bethel324 control system 시현 영상](https://www.youtube.com/watch?v=UDMhM5lJeyQ)
+Blog : [🏠Bethel324-control-system에 대하여](https://alinew.tistory.com/92), [🏠Bethel324-control-system을 구현하면서 배우고 성장한 점들](https://alinew.tistory.com/93)
